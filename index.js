@@ -1,6 +1,9 @@
 const express = require("express");
 const bodyParse = require("body-parser");
+
+//permite que o react acesse os dados da aplicação
 const cors = require("cors");
+
 const app = express();
 const mysql = require("mysql");
 
